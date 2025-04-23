@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gender Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>당신의 성별은?</h1>
+  <form id="survey-form">
+    <label><input type="radio" name="gender" value="male" required> 남성</label><br>
+    <label><input type="radio" name="gender" value="female"> 여성</label><br>
+    <label><input type="radio" name="gender" value="unknown"> 답할 수 없음</label><br>
+    <button type="submit">제출</button>
+  </form>
+
+  <h2>응답 통계</h2>
+  <p>총 응답자 수: <span id="total">0</span></p>
+  <ul>
+    <li>남성: <span id="male">0</span></li>
+    <li>여성: <span id="female">0</span></li>
+    <li>답할 수 없음: <span id="unknown">0</span></li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
