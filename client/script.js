@@ -1,4 +1,4 @@
-const API_URL = 'https://your-render-url.onrender.com'; // 나중에 실제 URL로 교체
+const API_URL = 'https://gender-survey-backend.onrender.com'; // 나중에 실제 URL로 교체
 
 document.getElementById('survey-form').addEventListener('submit', async (e) => {
   e.preventDefault();
